@@ -1,6 +1,6 @@
 <?php
 $e = "hola";
-$hola = "holamundo";
+$hola = "hola  mundo";
 echo $$e;
 
 ?>
