@@ -25,7 +25,12 @@ Nota:
 
 Desde PHP 5.4, la etiqueta abreviada de echo <?= siempre es reconocida y válida, sin tener en cuenta la configuración de short_open_tag. 
 
+Nota: 
 
+ La etiqueta de cierre de un bloque de PHP es opcional al final de un fichero, y en algunos casos es útil omitirla cuando se usa include o require, para que no se produzcan espacios en blanco al final de los ficheros, y así se podrán añadir aún cabeceras para la respuesta posterior. También es práctico si se utiliza la salida del buffer y no se desean espacios en blanco no deseados al final de las partes generadas por ficheros incluídos. 
+
+Comentarios 
+ PHP soporta comentarios 'C', 'C++' y etilo consola Unix (estilo Perl). Por ejemplo: 
 
 
 
