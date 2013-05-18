@@ -20,8 +20,6 @@ su valor como el resultado de esa expresión. Por ejemplo:
 
 <p>
 
-<table>
-<tr><td>
 <?php
 
 $a = 3;
@@ -30,6 +28,4 @@ $b = "Hola ";
 $b .= "ahí!"; // establece $b en "Hola ahí!", al igual que $b = $b . "ahí!";
 
 ?>
-</td></tr>
-</table>
 
