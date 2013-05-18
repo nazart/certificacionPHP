@@ -19,7 +19,7 @@ EOH;
  */
 
 $values = array(0, 1, 2, 4, 8);
-$test = 1 + 4;
+$test = 2 + 4;
 
 echo "\n AND bit a bit \n";
 foreach ($values as $value) {
