@@ -1,4 +1,5 @@
 <?php
+//Tabla de comparaciones
 $tests = array();
 $tests['==']  = create_function('$a, $b', 'return $a==$b;');
 $tests['==='] = create_function('$a, $b', 'return $a===$b;');
@@ -24,10 +25,10 @@ $comparison['NULL'] = null;
 $comparison['array()'] = array();
 $comparison['"php"'] = 'php';
        
-print '<h1>PHP version '.PHP_VERSION.' type comparison tables</h1>';
+print '<h1>PHP version '.PHP_VERSION.' tabla de tipo de comparaciones</h1>';
        
 foreach ($tests as $test=>$function) {
-    print "<h2>Comparisons with $test</h2>";
+    print "<h2>Comparamos con $test</h2>";
     print "<table border='1'>";
     print "<tr>";
     print "<th>&nbsp;</th>";
