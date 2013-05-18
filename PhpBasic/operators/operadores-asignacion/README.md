@@ -5,18 +5,12 @@ se establece con el valor de la expresión de la derecha (es decir, "<strong>se 
  El valor de una expresión de asignación es el valor asignado. Es decir, 
 el valor de "$a = 3" es de 3. Esto permite hacer algunas cosas intrincadas: 
 
-<p>
-
-<table>
-<tr><td>
 <?php
 
 $a = ($b = 4) + 5; // ahora $a es igual a 9 y $b se ha establecido en 4.
 
 ?>
 
-</td></tr>
-</table>
 
 
 Además del operador básico de asignación, existen "operadores combinados" 
