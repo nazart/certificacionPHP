@@ -29,3 +29,16 @@ $b .= "ahí!"; // establece $b en "Hola ahí!", al igual que $b = $b . "ahí!";
 
 ?>
 
+<strong>Asignación por referencia</strong>
+
+La asignación por referencia también está soportada, utilizando la sintaxis 
+"$var = &$othervar;". Asignación por referencia significa que ambas variables 
+terminan apuntando a los mismos datos y nada es copiado en ninguna parte. 
+
+
+
+
+
+
+
+
