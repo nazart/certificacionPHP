@@ -1,0 +1,6 @@
+nbproject
+nbproject/*
+/nbproject/private/
+var/*
+.zfproject.xml
+public/captcha/*

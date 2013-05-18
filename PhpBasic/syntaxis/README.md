@@ -10,7 +10,7 @@ algunos ejemplos
 <script language="php"> </script> // case insensitive
 
 Recomendaciones:
-El standar PSR-1 sugierere solo usar <?php ?> o <?= ?> (echo short tag) y no otras raviaciones.
+El standar PSR-1 sugierere solo usar <?php ?> o <?="2"?> (echo short tag) y no otras raviaciones.
 El standar PSR-2 sugiere que solo para archivos PHP no se cierre el tag solo se use el de apertura.
 
 Nota:
@@ -18,8 +18,7 @@ Nota:
 Se debe evitar el uso de etiquetas abreviadas cuando se desarrollen aplicaciones o bibliotecas que estén pensadas para su redistribución o despliegue en servidores PHP que no estén bajo su control, porque puede que las etiquetas abreviadas no estén soportadas en un servidor determinado. Por portabilidad y código redistribuible, asegúrese de no usar etiquetas abreviadas.
 
 Nota:
-
-En PHP 5.2 y anteriores, el intérprete no permite que un fichero contenga únicamente la etiqueta de apertura <?php. A partir de PHP 5.3 sí se permite siempre que existan uno o más caracteres espacio en blanco después de la etiqueta de apertura. 
+En PHP 5.2 y anteriores, el intérprete no permite que un fichero contenga únicamente la etiqueta de apertura <?php. A partir de PHP 5.3 sí se permite siempre que existan uno o más caracteres espacio en blanco después de la etiqueta de apertura.
 
 Nota:
 
